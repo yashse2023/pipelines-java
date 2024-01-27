@@ -55,7 +55,8 @@ stages:
     displayName: Deploy Linux Web App
     environment: $(environmentName)
     pool:
-      vmImage: $(vmImageName)
+      #vmImage: $(vmImageName)
+      name: hosted_ubuntu
     strategy:
       runOnce:
         deploy:
