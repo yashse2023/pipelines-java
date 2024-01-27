@@ -28,7 +28,7 @@ stages:
     displayName: Maven Package and Publish Artifacts
     pool:
       #vmImage: $(vmImageName)
-      name: hosted_Win
+      name: hosted_ubuntu
 
     steps:
     - task: Maven@3
